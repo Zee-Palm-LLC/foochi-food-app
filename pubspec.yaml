@@ -1,0 +1,54 @@
+name: foochi
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  flutter_screenutil: ^5.7.0
+  google_fonts: ^4.0.4
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.19
+  animate_do: ^3.0.2
+  dots_indicator: ^3.0.0
+  flutter_svg: ^2.0.5
+  card_swiper: ^2.0.4
+  like_button: ^2.0.5
+  flutter_staggered_animations: ^1.1.1
+  flutter_slidable: ^3.0.0
+  simple_animations: ^5.0.2
+  image_stack: ^2.1.1
+  flutter_rating_bar: ^4.0.1
+  flutter_easyloading: ^3.0.5
+  image_picker: ^0.8.9
+  
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "FFF5E0"
+  fullscreen: true
+  
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/logo.png"
+  image_path_ios: "assets/images/logo.png"
+
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
