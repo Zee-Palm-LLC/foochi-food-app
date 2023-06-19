@@ -33,7 +33,7 @@ class Main extends StatelessWidget {
             FocusManager.instance.primaryFocus?.unfocus();
           },
           child: GetMaterialApp(
-            title: 'Foochi',
+            title: 'Foochi- Food App',
             builder: EasyLoading.init(),
             debugShowCheckedModeBanner: false,
             scrollBehavior: const ScrollBehavior()
