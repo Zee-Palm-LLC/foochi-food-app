@@ -9,8 +9,8 @@ class AppAssets {
   static String kProfilePic2 = 'assets/images/profilePic2.jpg';
   static String kChicken = 'assets/images/chicken.png';
   static String kSushi = 'assets/images/sushi.png';
-  static String kSandwich = 'assets/images/sandwich.png';
-  static String kSalad = 'assets/images/salad.png';
+  static String kSandwich = 'assets/images/hamburger.png';
+  static String kSalad = 'assets/images/logo.png';
   static String kFish = 'assets/images/fish.png';
   static String kSpaGhetti = 'assets/images/spaghetti.png';
   static String kFoodImage1 = 'assets/images/food-image-1.png';

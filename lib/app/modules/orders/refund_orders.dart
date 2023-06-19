@@ -9,6 +9,7 @@ class RefundOrders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
+        padding: EdgeInsets.symmetric(horizontal: 20.w),
         itemBuilder: (ctx, i) {
           return const RefundOrderCard();
         },

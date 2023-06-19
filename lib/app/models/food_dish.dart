@@ -117,6 +117,17 @@ List<FoodDish> foodDishes = [
     ingredients: dummyIngredients,
     cuisine: cuisines[6],
   ),
+   FoodDish(
+    id: '9',
+    image: AppAssets.kFoodImage5,
+    name: 'Fried Fish ',
+    price: 28.00,
+    category: dishCategories[4],
+    averageRating: 4.5,
+    totalRating: 113,
+    ingredients: dummyIngredients,
+    cuisine: cuisines[4],
+  ),
 ];
 
 List<FoodDish> discountDishes = [

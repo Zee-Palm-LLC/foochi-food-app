@@ -27,6 +27,7 @@ class _AddPaymentDetailsState extends State<AddPaymentDetails> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
+      padding: EdgeInsets.symmetric(horizontal: 20.w),
       child: Form(
         key: _formKey,
         child: Column(

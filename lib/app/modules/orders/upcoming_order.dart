@@ -10,7 +10,7 @@ class UpcomingOrders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-    
+      padding: EdgeInsets.symmetric(horizontal: 20.w),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
