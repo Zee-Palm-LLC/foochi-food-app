@@ -28,6 +28,6 @@ jobs:
       - name: Upload APK
         uses: ncipollo/release-action@v1
         with:
-          name: Jobblish.apk
+          name: Foochi.apk
           artifacts: build/app/outputs/flutter-apk/app-release.apk
           
